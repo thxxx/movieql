@@ -1,0 +1,36 @@
+#About_title{
+    font-size:43px;
+    color:rgb(238, 123, 161);
+    font-family: 'Jua', sans-serif;
+    padding-bottom:0px;
+}
+
+#about{
+    padding-top:5%;
+    padding-bottom:5%;
+    width:50%;
+}
+
+@media(max-width:900px){
+    #about{
+        padding-top:10%;
+    width:100%;
+    }
+}
+
+#About_container{
+}
+
+#About_text{
+    margin-top:0px;
+    color:black;
+    font-family: 'Yeon Sung', cursive;
+    font-size:20px;
+    padding-left:20px;
+    padding-right:20px;
+}
+@media(min-width:900px){
+.aboutContact{
+    display:flex;
+}
+}

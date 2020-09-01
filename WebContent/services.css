@@ -1,0 +1,22 @@
+#services{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+#services_container{
+    padding-bottom:30px;
+    justify-content: center;
+}
+
+#services_title{
+    font-size:43px;
+}
+
+#block_title{
+    padding-top:10px;
+    font-size:22px;
+}
+
+#block_text{
+    font-size:17px;
+}

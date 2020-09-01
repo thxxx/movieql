@@ -15,6 +15,11 @@
       border-bottom: 2px solid balck;
   }
 
+  .row{
+    padding-top:10px;
+    margin-top:-40px;
+  }
+
   #explain_title{
     margin-top: 8%;
     color: black;
@@ -23,16 +28,17 @@
 
   #explain_sub{
     color: black;
-    font-size:15px;
+    font-size :17px;
   }
 
   #services_title{
     font-size:50px;
   font-family: 'Jua', sans-serif;
   }
+
 #services #block{
   font-family: 'Yeon Sung', cursive;
-  font-size:17px;
+  font-size:19px;
 }
 #services #block #block_title{
   font-family: 'Yeon Sung', cursive;
