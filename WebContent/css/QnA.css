@@ -33,11 +33,11 @@ border-bottom-style: solid;
 }
 
 #contact{
-  padding:5%;
+  padding-top:5%;
   width:50%;
   background-color:rgb(165, 165, 165);
 }
-
+ 
 @media(max-width:900px){
   #contact{
   width:100%;

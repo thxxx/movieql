@@ -18,9 +18,6 @@
     }
 }
 
-#About_container{
-}
-
 #About_text{
     margin-top:0px;
     color:black;
@@ -33,4 +30,16 @@
 .aboutContact{
     display:flex;
 }
+}
+
+#about_block_title{
+    padding-top:10px;
+    font-size:18px;
+}
+
+#about_block_text{
+    font-size:15px;
+}
+
+#about_block{
 }

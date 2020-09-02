@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>티키타카 - 새로운미팅</title>
-    <!-- Favicon-->
+    <title>티키타카 - 온라인미팅</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
@@ -20,13 +19,14 @@
         rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-    <link href="./Apply.css" rel="stylesheet" />
-    <link href="./Explain.css" rel="stylesheet" />
-    <link href="./QnA.css" rel="stylesheet" />
-    <link href="./About.css" rel="stylesheet" />
-    <link href="./services.css" rel="stylesheet" />
+    <link href="css//Apply.css" rel="stylesheet" />
+    <link href="css//Explain.css" rel="stylesheet" />
+    <link href="css//QnA.css" rel="stylesheet" />
+    <link href="css//About.css" rel="stylesheet" />
+    <link href="css//services.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&family=Yeon+Sung&display=swap"
         rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600&display=swap" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175878448-1"></script>
@@ -53,7 +53,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto my-2 my-lg-0">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#QnA_about">Q&A</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#QnA_about">QnA</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
@@ -63,6 +63,7 @@
     <!-- Masthead -->
     <header class="masthead" id="page-top">
         <div class="masthead_container">
+            <div id="apply_container">
             <div class="row h-100 align-items-center justify-content-center text-center">
                 <div class="col-lg-10 align-self-end">
                     <h1 class="title"> 티키타카 <br /> </h1>
@@ -71,17 +72,20 @@
                 </div>
                 <div class="col-lg-8 align-self-baseline">
                     <p class="text-white-75 font-weight-light mb-5" id="text_apply">
-                        사람을 만나서 재밌게 놀고싶지만 코로나 때문에 걱정이 된다고? <br>
+                        사람을 만나서 재밌게 놀고싶지만 코로나 때문에 <br>걱정이 된다고? <br>
                         일반미팅보다 훨씬 재밌고 편한걸 하고싶다면 <br>
                         티키타카로 와봐! <br>
                         <br />
-                        모집기간 : 9/00 ~ 9/00
+                        <b style="color:deeppink; font-size: 22px;">모집기간</b> : 9/02(화) ~ 9/06(일)
                     </p>
                     <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://bit.ly/apply-to-tikitaka"
                         id="apply"> 신청하기 </a>
                 </div>
             </div>
         </div>
+        <img src="resources/WAVE GREETINGS.png" id="imgGreetings1">
+        <img src="resources/WAVE GREETINGS2.png" id="imgGreetings2">
+    </div>
     </header>
 
     <!-- Services-->
@@ -158,7 +162,7 @@
                     <div class="mt-5">
                         <img src="resources/clock.png" style="width:65px; height:65px;">
                         <h3 id="block_title"> 시간 </h3>
-                        <p class="text-muted mb-0" id="block_text"> 미팅은 <b style="color:deeppink;">총2시간 </b>동안 진행되며 중간에
+                        <p class="text-muted mb-0" id="block_text"> 미팅은 <b style="color:deeppink;">총2시간 </b>혹은 <b style="color:deeppink;">1시간</b>동안 진행되며 중간에
                             10분의 쉬는시간을 가집니다. </p>
                     </div>
                 </div>
@@ -253,6 +257,7 @@
         </span>
     </section>
     <!-- About-->
+    <div class="aboutContact">
     <section class="page-section bg-white" id="about">
         <div class="container" id="About_container">
             <div class="row justify-content-center">
@@ -260,8 +265,8 @@
                     <p class="mt-0" id="About_title"> 팀 소개 </p> <!-- 비전, 핵심가치 -->
                     <hr class="divider dark my-4" />
                     <p class="mb-0" id="About_text">
-                        안녕하세요! 저희는 연세대학교와 유펜-와튼스쿨 학생들로 이루어진 창업팀 <b
-                            style="font-size:25px; color:rgb(238, 123, 161);">비프렌즈 </b>입니다. <br>
+                        안녕하세요! 저희는 연세대학교와 유펜대학교 학생들로 이루어진 창업팀 
+                        <b style="font-size:25px; color:rgb(238, 123, 161);">비프렌즈 </b>입니다. <br>
                         저희는 코로나로 인해 물리적으로 단절된 사회에 사람들이 좀더 편하고 안전하게 서로 만날수 있는 방법이 없을까를 고민하고 <br>
                         온라인을 통한 미팅으로 사람들을 연결하여 새로운 인연과 재미를 만들 기회를 제공하고자 노력하고있습니다.
 
@@ -273,7 +278,7 @@
     <!-- Contact-->
     <section class="page-section" id="contact">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" id="contact_container">
                 <div class="col-lg-8 text-center">
                     <h2 class="contact_title">Let's Get In Touch!</h2>
                     <hr class="divider my-4" />
@@ -309,6 +314,7 @@
             </div>
         </div>
     </section>
+</div>
     <!-- Footer-->
     <footer class="bg-dark py-4">
         <div class="container">
